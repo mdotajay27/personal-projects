@@ -1,0 +1,1 @@
+## Basic Command Palette Generator using Vanilla JS
