@@ -1,1 +1,1 @@
-## Basic Stopwatch with standings
+## Basic Stopwatch with standings using Vanilla JavaScript
