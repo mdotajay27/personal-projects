@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch with Standings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Stopwatch with Standings</h1>
+    <div id="display">00:00:00</div>
+    <button id="startStop" onclick="startStop()">Start</button>
+    <button onclick="reset()">Reset</button>
+    <button onclick="recordTime()">Record Time</button>
+    <div id="standings">
+        <h2>Standings</h2>
+        <ol id="standingsList"></ol>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
