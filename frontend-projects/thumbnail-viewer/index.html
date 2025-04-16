@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mengani Ajay">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Image Gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Thumbnail Viewer</h1>
+            <div class="thumbnails-container">
+                <img src="html.png" alt="HTML Thumbnail" data-full="html.png">
+                <img src="css.svg" alt="CSS Thumbnail" data-full="css.svg">
+                <img src="js.png" alt="JS Thumbnail" data-full="js.png">
+                </div>
+    
+            <div class="fullscreen-overlay" id="fullscreenOverlay">
+                <span class="close-button" id="closeButton">&times;</span>
+                <img src="" alt="Fullscreen Image" id="fullscreenImage">
+            </div>
+        </div>
+    
+        <script src="index.js"></script>
+    </body>
+    </html>
